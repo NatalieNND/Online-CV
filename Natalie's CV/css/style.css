@@ -1,0 +1,73 @@
+body {
+  background-image:url("https://wallpaper-gallery.net/images/wallpaper-and-backgrounds/wallpaper-and-backgrounds-2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+img {
+    height: 230px;
+    width: 230px;
+    float: right;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  border-radius: 40px;
+  font-size: 20px;
+  font-family: monospace;
+  padding: 0px 250px;
+  word-spacing: 15px;
+
+}
+
+h3 {
+  line-height: 10px;
+  font-size: 20px;
+}
+
+h1,h2,h3 {
+  text-decoration: underline;
+  padding: 20px;
+  font-style: italic;
+
+}
+
+hr {
+  border: 5px solid black;
+}
+
+
+p {
+  padding: 20px;
+  line-height: 20px;
+  font-size: 18px;
+  font-style: oblique;
+
+}
+
+.content p {
+  margin-right: 100px;
+  display: block;
+  width: 50%;
+}
+
+a:link {
+  text-decoration: underline;
+  color: blue;
+}
+
+a:visited {
+  color: powderblue;
+}
+
+a:hover {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+}
